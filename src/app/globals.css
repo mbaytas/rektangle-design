@@ -6,7 +6,19 @@
 }
 
 @layer components {
+    /* Padded sections and articles */
+    section,
+    article {
+        @apply w-full
+        side-padding
+        pt-[max(14.6vw,theme(spacing.32))] 
+        pb-[max(9vw,theme(spacing.20))];
+    }
 }
 
 @layer utilities {
+    /* Responsive side padding */
+    .side-padding {
+        @apply px-[max(5.6vw,theme(spacing.5))];
+    }
 }
