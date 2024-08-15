@@ -59,6 +59,28 @@ export default function Home() {
             — Kenya Hara, excerpt from <em>White</em>
           </p>
         </div>
+        <div className="prose font-serif mt-24 italic [text-wrap:balance]">
+          <p>
+            Rektangle (2023–24) was a design studio founded and operated by{" "}
+            <a href="https://baytas.net">Mehmet Aydın Baytaş</a>.
+          </p>
+          <p>
+            Visit our current projects:{" "}
+            <a
+              href="https://colorai.app/"
+              target="_blank"
+            >
+              Color AI
+            </a>
+            ,{" "}
+            <a
+              href="https://www.designdisciplin.com/"
+              target="_blank"
+            >
+              Design Discipline
+            </a>
+          </p>
+        </div>
       </article>
     </main>
   );
